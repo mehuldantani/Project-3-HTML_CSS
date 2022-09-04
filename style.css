@@ -1,0 +1,57 @@
+*{
+    font-family: "Red Rose";
+    color: white;
+}
+
+body{
+    background-color: #2c2922;
+}
+
+.navbar{
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+    display: flex;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    flex-grow: 3;
+}
+
+.list-item{
+    margin-right: 20px;
+}
+
+.logo{
+    width: 33%;
+}
+.button-small{
+    margin-left: 200px;
+    width: 100px;
+    background-color: transparent;
+    border: 2px solid #c6c745;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.hero{
+    margin-left: 50px;;
+    display: flex;
+}
+
+.hero h1{
+    font-size: 60px;
+    width: 50%;
+}
+
+.hero p{
+    margin-left: 50px;
+}
+
+.dummy-text{
+    margin-top: 70px;
+    width: 30%;
+}
